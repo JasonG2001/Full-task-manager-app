@@ -1,0 +1,9 @@
+.screenDarkener {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  transition: 0.5s;
+}

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: taskui-backend-deploy
+  name: taskui-backend-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: taskui-backend-deploy
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: taskui-backend-deploy
+    spec:
+      containers:
+      - image: ghcr.io/thg-accelerator/taskui_backend:v1.0.0
+        name: taskui-backend-mhrcp
+      imagePullSecrets:
+      - name: ghcr-creds
+        resources: {}
+status: {}

@@ -1,0 +1,73 @@
+.formContainer {
+  position: absolute;
+  width: 30%;
+  height: 75%;
+  background-color: white;
+  box-shadow: 0.3rem 0.3rem 0.8rem 0.5rem rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  z-index: 2;
+}
+
+input,
+textarea {
+  width: 60%;
+  font-size: 0.9rem;
+  padding: 2%;
+  border: #e3dfd3 solid 0.08rem;
+  border-radius: 0.2rem;
+}
+
+textarea {
+  height: 90%;
+}
+
+.formTitles {
+  flex: 1;
+  font-size: 1.1rem;
+}
+
+.formRows {
+  height: 80%;
+  width: 80%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  all: unset;
+  border-radius: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  cursor: pointer;
+  border-left: 0.001rem solid #e3dfd3;
+  border-right: 0.001rem solid #e3dfd3;
+  font-size: 1rem;
+}
+
+.row button:hover {
+  font-size: 1.2rem;
+}
+
+.submit:hover {
+  background-color: rgb(111, 210, 121);
+}
+
+.cancel:hover {
+  background-color: rgb(236, 103, 97);
+}

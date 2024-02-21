@@ -1,0 +1,13 @@
+body {
+  height: 100vh;
+  background-image: linear-gradient(to top right, #5b0b8a, #c186e3);
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

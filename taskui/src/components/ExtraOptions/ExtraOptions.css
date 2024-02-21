@@ -1,0 +1,22 @@
+.optionsContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  width: 17rem;
+  font-size: 1rem;
+  border: solid black 0.1rem;
+  justify-content: center;
+  border-radius: 1.2rem;
+  height: 2rem;
+}
+
+.optionsBox {
+  margin-left: 2%;
+  width: 55%;
+}
+
+@media screen and (max-width: 975px) {
+  .optionsContainer {
+    margin: 1%;
+  }
+}
